@@ -1,0 +1,476 @@
+carri 0.txt 1 
+bouquet 0.txt 1 76 151 
+handkerchief 0.txt 1 76 151 
+glove 0.txt 1 76 151 
+proud 0.txt 2 77 152 
+height 0.txt 2 77 152 
+live 0.txt 2 77 152 2.txt 11 12 12 3.txt 79 
+move 0.txt 2 29 77 104 152 179 
+careless 0.txt 3 78 153 3.txt 7 
+high-step 0.txt 3 78 153 
+grace 0.txt 3 23 78 98 153 173 
+extravag 0.txt 4 79 154 
+courtesan' 0.txt 4 79 154 
+thin 0.txt 4 79 154 
+face 0.txt 4 56 61 79 131 136 154 206 211 1.txt 6 3.txt 65 
+slimmer 0.txt 6 81 156 
+waist 0.txt 6 81 156 
+e'er 0.txt 6 81 156 
+ball-room 0.txt 6 81 156 
+woo 0.txt 6 81 156 
+float 0.txt 7 82 157 
+robe 0.txt 7 82 157 
+royal 0.txt 7 82 157 
+amplitud 0.txt 7 82 157 
+fall 0.txt 8 83 158 3.txt 42 59 4.txt 15 
+deep 0.txt 8 83 158 
+fold 0.txt 8 51 83 126 158 201 3.txt 66 
+around 0.txt 8 83 158 
+dri 0.txt 8 83 158 
+foot 0.txt 8 83 158 4.txt 15 
+shod 0.txt 8 83 158 
+bright 0.txt 9 84 159 1.txt 1 
+flower-lik 0.txt 9 84 159 
+shoe 0.txt 9 84 159 
+gem 0.txt 9 84 159 
+sod 0.txt 9 84 159 
+swarm 0.txt 11 86 161 
+hum 0.txt 11 86 161 
+collar-bon 0.txt 11 86 161 
+lascivi 0.txt 12 87 162 
+stream 0.txt 12 66 87 141 162 216 4.txt 11 
+caress 0.txt 12 87 162 
+stone 0.txt 12 87 162 3.txt 18 
+conceal 0.txt 13 88 163 
+everi 0.txt 13 23 71 71 88 98 146 146 163 173 221 221 
+scorn 0.txt 13 88 163 
+jest 0.txt 13 88 163 
+fli 0.txt 13 88 163 
+gloomi 0.txt 14 89 164 
+beauti 0.txt 14 54 89 129 164 204 1.txt 1 3.txt 52 
+fathomless 0.txt 14 36 89 111 164 186 
+eye 0.txt 14 46 89 121 164 196 3.txt 8 48 4.txt 1 
+made 0.txt 16 91 166 
+shade 0.txt 16 91 166 3.txt 54 
+void 0.txt 16 63 91 138 166 213 
+floweri 0.txt 16 91 166 
+spray 0.txt 16 91 166 
+skull 0.txt 17 92 167 
+wreath 0.txt 17 92 167 
+artist 0.txt 17 92 167 
+sway 0.txt 17 92 167 
+feebl 0.txt 18 93 168 
+weak 0.txt 18 93 168 
+frail 0.txt 18 93 168 
+vertebra 0.txt 18 93 168 
+charm 0.txt 19 44 52 94 119 127 169 194 202 3.txt 3 38 
+noth 0.txt 19 94 169 3.txt 19 
+deck 0.txt 19 94 169 
+folli 0.txt 19 94 169 
+laugh 0.txt 21 72 96 147 171 222 
+name 0.txt 21 96 171 
+caricatur 0.txt 21 96 171 
+see 0.txt 22 48 68 97 123 143 172 198 218 3.txt 28 47 52 
+flesh 0.txt 22 97 172 
+blood 0.txt 22 97 172 
+allur 0.txt 22 97 172 
+nameless 0.txt 23 98 173 
+bleach 0.txt 23 98 173 
+bare 0.txt 23 98 173 
+bone 0.txt 23 58 98 133 173 208 
+dear 0.txt 24 99 174 
+tall 0.txt 24 99 174 
+skeleton 0.txt 24 52 59 99 127 134 174 202 209 
+come 0.txt 26 54 101 129 176 204 4.txt 8 
+troubl 0.txt 26 101 176 
+potent 0.txt 26 101 176 
+sneer 0.txt 26 101 176 
+feast 0.txt 27 102 177 
+life 0.txt 27 102 177 3.txt 31 
+driven 0.txt 27 102 177 
+pleasure' 0.txt 28 103 178 
+sabbath 0.txt 28 103 178 
+dead 0.txt 28 103 178 3.txt 1 
+lust 0.txt 28 103 178 
+stir 0.txt 28 46 103 121 178 196 
+goad 0.txt 29 104 179 
+corps 0.txt 29 104 179 
+spur 0.txt 29 104 179 
+hope 0.txt 31 106 181 4.txt 3 
+sing 0.txt 31 106 181 
+violin 0.txt 31 106 181 
+pale 0.txt 32 107 182 
+candle-flam 0.txt 32 107 182 
+light 0.txt 32 34 107 109 182 184 4.txt 15 
+sin 0.txt 32 107 182 
+drive 0.txt 33 108 183 
+mock 0.txt 33 108 183 
+nightmar 0.txt 33 108 183 
+far 0.txt 33 108 183 4.txt 12 
+apart 0.txt 33 108 183 
+cool 0.txt 34 109 184 
+flame 0.txt 34 109 184 
+hell 0.txt 34 109 184 
+heart 0.txt 34 43 109 118 184 193 1.txt 14 17 18 
+well 0.txt 36 111 186 3.txt 19 62 
+fault 0.txt 36 111 186 3.txt 29 
+foolish 0.txt 36 111 186 
+etern 0.txt 37 49 112 124 187 199 3.txt 76 
+alemb 0.txt 37 112 187 
+antiqu 0.txt 37 112 187 
+distress 0.txt 37 112 187 
+still 0.txt 38 113 188 3.txt 73 
+o'er 0.txt 38 113 188 1.txt 13 13 3.txt 6 64 
+curv 0.txt 38 113 188 
+white 0.txt 38 49 113 124 188 199 
+trelli 0.txt 38 113 188 
+side 0.txt 38 113 188 
+sateless 0.txt 39 114 189 
+wander 0.txt 39 114 189 
+serpent 0.txt 39 114 189 
+curl 0.txt 39 114 189 
+glide 0.txt 39 114 189 
+truth 0.txt 41 116 191 
+tell 0.txt 41 116 191 3.txt 18 
+fear 0.txt 41 116 191 
+lest 0.txt 41 116 191 
+find 0.txt 41 116 191 
+among 0.txt 42 117 192 
+us 0.txt 42 117 192 
+lover 0.txt 42 58 117 133 192 208 
+mind 0.txt 42 117 192 
+beat 0.txt 43 118 193 
+smile 0.txt 43 49 118 124 193 199 1.txt 8 12 
+gave 0.txt 43 118 193 
+horror 0.txt 44 48 54 119 123 129 194 198 204 
+pleas 0.txt 44 119 194 
+none 0.txt 44 119 194 
+brave 0.txt 44 119 194 
+black 0.txt 46 121 196 
+gulf 0.txt 46 121 196 
+aw 0.txt 46 121 196 
+brood 0.txt 46 121 196 
+bring 0.txt 47 122 197 
+giddi 0.txt 47 122 197 
+prudent 0.txt 47 122 197 
+revel 0.txt 47 122 197 
+grip 0.txt 48 123 198 
+beneath 0.txt 48 123 198 
+thirty-two 0.txt 49 124 199 
+teeth 0.txt 49 124 199 
+arm 0.txt 51 126 201 
+fed 0.txt 52 127 202 
+graveyard 0.txt 52 127 202 
+reck 0.txt 53 128 203 
+furbelow 0.txt 53 128 203 
+paint 0.txt 53 58 128 133 203 208 
+scent 0.txt 53 59 128 134 203 209 
+way 0.txt 54 129 204 2.txt 9 
+went 0.txt 54 129 204 
+irresist 0.txt 56 131 206 
+fleshless 0.txt 56 131 206 
+say 0.txt 57 132 207 4.txt 7 
+dancer 0.txt 57 132 207 
+dazzl 0.txt 57 132 207 
+race 0.txt 57 132 207 
+"proud 0.txt 58 133 208 
+ye 0.txt 59 62 63 72 72 73 134 137 138 147 147 148 209 212 213 222 222 223 2.txt 4 
+shall 0.txt 59 134 209 1.txt 19 3.txt 34 
+tast 0.txt 59 134 209 
+death 0.txt 59 64 72 134 139 147 209 214 222 3.txt 25 
+musk 0.txt 59 134 209 
+wither 0.txt 61 136 211 3.txt 46 
+antinoü 0.txt 61 136 211 
+dandi 0.txt 61 136 211 
+plump 0.txt 61 136 211 
+varnish 0.txt 62 137 212 
+cadav 0.txt 62 137 212 
+grey 0.txt 62 137 212 
+lovelac 0.txt 62 137 212 
+go 0.txt 63 138 213 
+land 0.txt 63 138 213 4.txt 16 
+unknown 0.txt 63 138 213 
+breath 0.txt 63 138 213 
+drawn 0.txt 64 139 214 
+rumour 0.txt 64 139 214 
+danc 0.txt 64 67 139 142 214 217 
+seine' 0.txt 66 141 216 
+cold 0.txt 66 141 216 
+quay 0.txt 66 141 216 
+gang 0.txt 66 141 216 
+burn 0.txt 66 141 216 
+mortal 0.txt 67 72 142 147 217 222 3.txt 2 
+troup 0.txt 67 142 217 
+onward 0.txt 67 142 217 
+dream 0.txt 67 142 217 1.txt 2 
+within 0.txt 68 143 218 
+open 0.txt 68 143 218 
+sky 0.txt 68 143 218 3.txt 58 
+angel' 0.txt 69 144 219 
+sinist 0.txt 69 144 219 
+trumpet 0.txt 69 144 219 
+rais 0.txt 69 144 219 
+high 0.txt 69 144 219 3.txt 59 
+clime 0.txt 71 146 221 
+sun 0.txt 71 146 221 3.txt 33 
+mad 0.txt 72 74 147 149 222 224 
+run 0.txt 72 147 222 
+oft 0.txt 73 148 223 
+perfum 0.txt 73 148 223 
+myrrh 0.txt 73 148 223 
+like 0.txt 73 148 223 3.txt 17 
+mingl 0.txt 74 149 224 
+irony!" 0.txt 74 149 224 
+read 0.txt 76 151 
+http://www.poetry-archive.com/b/the_dance_of_death.html#4jhkpxqwaiokjdx2.99arri 0.txt 76 151 
+sleep 1.txt 1 1 3 3 3 3.txt 35 
+joy 1.txt 2 8 
+night 1.txt 2 19 3.txt 53 
+thi 1.txt 3 6 11 13 13 14 17 18 2.txt 5 9 3.txt 52 55 64 65 67 78 
+littl 1.txt 4 9 14 17 18 
+sorrow 1.txt 4 4.txt 7 
+sit 1.txt 4 
+weep 1.txt 4 3.txt 36 61 
+sweet 1.txt 6 
+babe 1.txt 6 
+soft 1.txt 7 3.txt 3 
+desir 1.txt 7 
+trace 1.txt 7 3.txt 49 
+secret 1.txt 8 8 
+pretti 1.txt 9 
+infant 1.txt 9 
+wile 1.txt 9 16 
+softest 1.txt 11 
+limb 1.txt 11 
+feel 1.txt 11 3.txt 69 
+morn 1.txt 12 3.txt 53 
+steal 1.txt 12 3.txt 26 
+cheek 1.txt 13 
+breast 1.txt 13 
+doth 1.txt 14 18 2.txt 6 
+rest 1.txt 14 
+cun 1.txt 16 
+creep 1.txt 16 
+asleep 1.txt 17 
+wake 1.txt 18 
+dread 1.txt 19 3.txt 76 
+break 1.txt 19 
+ever 2.txt 1 2 3 12 
+two 2.txt 1 
+one 2.txt 1 3.txt 64 
+sure 2.txt 1 
+man 2.txt 2 3 
+lov'd 2.txt 2 3.txt 16 19 
+wife 2.txt 2 3 
+thee 2.txt 2 8 10 3.txt 21 66 74 
+happi 2.txt 3 
+compar 2.txt 4 
+women 2.txt 4 
+prize 2.txt 5 
+love 2.txt 5 7 8 9 11 3.txt 16 21 25 56 68 78 
+whole 2.txt 5 
+mine 2.txt 5 3.txt 32 
+gold 2.txt 5 
+rich 2.txt 6 
+east 2.txt 6 
+hold 2.txt 6 
+river 2.txt 7 
+cannot 2.txt 7 3.txt 75 
+quench 2.txt 7 
+ought 2.txt 8 
+give 2.txt 8 
+recompet 2.txt 8 
+repay 2.txt 9 
+heaven 2.txt 10 
+reward 2.txt 10 
+manifold 2.txt 10 
+pray 2.txt 10 
+let' 2.txt 11 
+persev 2.txt 11 
+may 2.txt 12 3.txt 6 13 
+thou 3.txt 1 11 22 28 56 69 72 
+art 3.txt 1 
+young 3.txt 1 
+fair 3.txt 1 49 
+aught 3.txt 2 79 
+birth 3.txt 2 
+form 3.txt 3 
+rare 3.txt 3 
+soon 3.txt 4 
+return'd 3.txt 4 
+earth 3.txt 4 5 17 
+though 3.txt 5 43 72 
+receiv'd 3.txt 5 
+bed 3.txt 5 64 
+spot 3.txt 6 12 
+crowd 3.txt 6 
+tread 3.txt 6 
+mirth 3.txt 7 
+could 3.txt 8 51 61 
+brook 3.txt 8 
+moment 3.txt 9 
+grave 3.txt 9 
+look 3.txt 9 
+ask 3.txt 11 
+liest 3.txt 11 
+low 3.txt 11 
+gaze 3.txt 12 65 
+upon 3.txt 12 
+flower 3.txt 13 41 
+weed 3.txt 13 
+grow 3.txt 13 
+behold 3.txt 14 4.txt 1 
+enough 3.txt 15 
+prove 3.txt 15 
+long 3.txt 16 39 
+must 3.txt 16 42 44 
+common 3.txt 17 
+rot 3.txt 17 
+need 3.txt 18 37 
+yet 3.txt 21 45 71 
+last 3.txt 21 56 
+fervent 3.txt 22 
+didst 3.txt 23 
+chang 3.txt 23 29 49 
+past 3.txt 23 
+canst 3.txt 24 28 
+alter 3.txt 24 
+set 3.txt 25 
+seal 3.txt 25 
+age 3.txt 26 
+chill 3.txt 26 
+rival 3.txt 26 
+falsehood 3.txt 27 
+disavow 3.txt 27 
+wors 3.txt 28 
+wrong 3.txt 29 
+better 3.txt 31 
+day 3.txt 31 55 4.txt 15 
+worst 3.txt 32 
+cheer 3.txt 33 
+storm 3.txt 33 
+lower 3.txt 33 
+never 3.txt 34 4.txt 15 
+thine 3.txt 34 75 
+silenc 3.txt 35 
+dreamless 3.txt 35 
+envi 3.txt 36 
+much 3.txt 36 71 
+repin 3.txt 37 
+pass'd 3.txt 38 55 
+away 3.txt 38 44 
+might 3.txt 39 62 
+watch'd 3.txt 39 
+decay 3.txt 39 
+ripen'd 3.txt 41 
+bloom 3.txt 41 
+unmatch'd 3.txt 41 
+earliest 3.txt 42 
+prey 3.txt 42 
+hand 3.txt 43 
+untim 3.txt 43 
+snatch'd 3.txt 43 
+leav 3.txt 44 
+drop 3.txt 44 
+greater 3.txt 45 
+grief 3.txt 45 
+watch 3.txt 46 
+leaf 3.txt 46 46 
+pluck'd 3.txt 47 
+to-day 3.txt 47 
+sinc 3.txt 48 
+earthli 3.txt 48 
+ill 3.txt 48 
+bear 3.txt 48 
+foul 3.txt 49 
+know 3.txt 51 
+born 3.txt 51 
+fade 3.txt 52 
+follow'd 3.txt 53 
+worn 3.txt 54 
+deeper 3.txt 54 
+without 3.txt 55 
+cloud 3.txt 55 
+hath 3.txt 55 
+wert 3.txt 56 
+extinguish'd 3.txt 57 
+decay'd 3.txt 57 
+star 3.txt 58 
+shoot 3.txt 58 
+along 3.txt 58 
+shine 3.txt 59 
+brightest 3.txt 59 
+wept 3.txt 61 
+tear 3.txt 62 
+shed 3.txt 62 
+think 3.txt 63 
+near 3.txt 63 
+keep 3.txt 63 
+vigil 3.txt 64 
+fondli 3.txt 65 
+faint 3.txt 66 
+embrac 3.txt 66 
+uphold 3.txt 67 
+droop 3.txt 67 
+head 3.txt 67 
+show 3.txt 68 
+howev 3.txt 68 
+vain 3.txt 68 
+less 3.txt 71 
+gain 3.txt 71 
+hast 3.txt 72 
+left 3.txt 72 
+free 3.txt 72 
+loveliest 3.txt 73 
+thing 3.txt 73 
+remain 3.txt 73 
+thu 3.txt 74 
+rememb 3.txt 74 
+die 3.txt 75 
+dark 3.txt 76 4.txt 13 
+return 3.txt 77 
+buri 3.txt 78 
+endear 3.txt 78 
+except 3.txt 79 
+year 3.txt 79 
+tide 4.txt 2 
+told 4.txt 2 
+twin 4.txt 3 3 
+fallen 4.txt 3 
+king 4.txt 3 
+perish 4.txt 3 
+mourn 4.txt 3 
+slayer 4.txt 4 
+slain 4.txt 4 
+entangl 4.txt 5 
+doom 4.txt 5 
+forlorn 4.txt 5 
+ruinou 4.txt 6 
+end 4.txt 6 
+twain 4.txt 6 
+sorrow' 4.txt 7 
+sum 4.txt 7 
+home 4.txt 8 
+hearthston 4.txt 8 
+oh 4.txt 9 10 
+waft 4.txt 9 
+sigh 4.txt 9 
+sail 4.txt 9 
+shore 4.txt 9 
+smite 4.txt 10 
+bosom 4.txt 10 
+cadenc 4.txt 10 
+oar 4.txt 10 
+row 4.txt 11 
+beyond 4.txt 11 
+rueful 4.txt 11 
+aye 4.txt 11 
+strand 4.txt 12 
+ship 4.txt 13 
+soul 4.txt 13 
+unreturn 4.txt 14 
+bark 4.txt 14 
+whereon 4.txt 15 
+even 4.txt 16 
+bourn 4.txt 16 
+unbeholden 4.txt 16 
