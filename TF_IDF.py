@@ -4,8 +4,10 @@ from os import listdir
 import os
 from nltk.stem import PorterStemmer
 from nltk.corpus import stopwords
-import nltk
-nltk.download('stopwords')
+
+# import nltk
+# nltk.download('stopwords')
+stop_words = set(stopwords.words('english'))
 ps = PorterStemmer()
 
 
@@ -54,14 +56,14 @@ def get_tw(pf):
         for info in pf[word]:
             if type(info) == str:
                 df += 1
-        idf[word] = math.log(n/df)
+        idf[word] = math.log(n / df)
 
         for info in pf[word]:
             if type(info) == str:
                 tw[word].append(info)
             else:
                 tf = info
-                tw[word].append(math.log1p(tf)*idf[word])
+                tw[word].append(math.log1p(tf) * idf[word])
 
     tw = normalize_tw(tw)
     return tw
@@ -70,22 +72,10 @@ def get_tw(pf):
 def index_text_file():
     delimiter_chars = ",.;:!? '"
     word_occurrences = {}
-    i = len(listdir("Files"))
-    stop_words = set(stopwords.words('english'))
-    for txt_filename in listdir("Source"):
-        fptr = open("Source/"+txt_filename, "r")
-        pfile = open("Files/"+str(i)+".txt", "w")
-        for line in fptr:
-            pfile.write(line)
-
-        i += 1
-        fptr.close()
-        pfile.close()
-        os.remove("Source/"+txt_filename)
 
     for txt_filename in listdir("Files"):
         fname = txt_filename
-        txt_filename ="Files/" + txt_filename
+        txt_filename = "Files/" + txt_filename
         try:
             txt_fil = open(txt_filename, "r")
 
@@ -148,15 +138,15 @@ def scan_new_files():
     x = len(listdir("Source"))
     if x != 0:
         for txt_filename in listdir("Source"):
-            fptr = open("Source/"+txt_filename, "r")
-            pfile = open("Files/"+str(i)+".txt", "w")
+            fptr = open("Source/" + txt_filename, "r")
+            pfile = open("Files/" + "F" + str(i) + ".txt", "w")
             for line in fptr:
                 pfile.write(line)
 
             i += 1
             fptr.close()
             pfile.close()
-            os.remove("Source/"+txt_filename)
+            os.remove("Source/" + txt_filename)
         index_text_file()
 
 
@@ -180,15 +170,13 @@ def parseindex():
                     pfile[word].append(tf)
                     tf = 0
 
-                pfile[word].append(info[0])
+                pfile[word].append(info.strip('.txt'))
 
             else:
                 tf += 1
 
         pfile[word].append(tf)
     return pfile
-
-print(stopwords)
 
     # idx_fil = open("Indexes/index.txt", "w")
     # for word in pfile:
@@ -198,6 +186,5 @@ print(stopwords)
     #         idx_fil.write(str(line_num) + " ")
     #
     #     idx_fil.write("\n")
-
 
 # EOF

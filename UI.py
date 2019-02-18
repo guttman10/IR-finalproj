@@ -1,14 +1,17 @@
+import re
 try:
-    import TF_IDF
     from Tkinter import Entry, Frame, Label, StringVar
     from Tkconstants import *
     from nltk.stem import PorterStemmer
-
 except ImportError:
     from tkinter import Entry, Frame, Label, StringVar, Toplevel, Button, Text, Scrollbar
     from tkinter.constants import *
     from nltk.stem import PorterStemmer
-    import TF_IDF
+
+import TF_IDF
+import boolean
+
+algebra = boolean.BooleanAlgebra()
 
 ps = PorterStemmer()
 TF_IDF.scan_new_files()
@@ -153,22 +156,98 @@ class SearchBox(Frame):
         self.entry.focus()
 
     def _on_execute_command(self, event):
-        commands = ['AND', 'OR', 'NOT']
         text = self.get_text()
-        # for word in text.split():
-        #     if word in commands:
-                
-        text = ps.stem(text)
-        if text in postf:
-            self._command(postf[text])
-        else:
-            self._command({})
+        res = parse_command(text)
+        self._command(res)
+
 
     def _state_normal(self, event):
         self.button_label.configure(background=self._button_background)
 
     def _state_active(self, event):
         self.button_label.configure(background=self._button_activebackground)
+
+
+def ret_not_files(files):
+    res=[]
+    from os import listdir
+    for txt_filename in listdir("Files"):
+        txt_filename = txt_filename.strip('.txt')
+        if txt_filename not in files:
+            res.append(txt_filename)
+    return res
+
+
+def parse_command(buffer):
+    templist = []
+    commands = ['and', 'not', 'or']
+    not_flag = False
+    and_flag = False
+    or_flag  = False
+    t_flag = True
+    par_flag = False
+    res = []
+    buff = ""
+    for word in buffer.split():
+        word = word.lower()
+        word = ps.stem(word)
+        if word == 'not':
+            not_flag = True
+        elif word == 'or':
+            or_flag = True
+        elif word == 'and':
+            and_flag = True
+        if word[0] == '(':
+            par_flag = True
+
+        if par_flag:
+            buff += word + " "
+            if word.endswith(")"):
+                for char in buff:
+                    if char in "()":
+                        buff = buff.replace(char, '')
+                par_flag = False
+                templist = parse_command(buff)
+
+                if not_flag:
+                    templist = ret_not_files(templist)
+                    not_flag = False
+
+                if and_flag:
+                    res = set(res) & set(templist)
+                    res = list(res)
+                    and_flag = False
+
+                if or_flag:
+                    res = res + list(set(templist) - set(res))
+                    or_flag = False
+
+                if word != 'not' and t_flag:
+                    res = templist
+                    t_flag = False
+        else:
+            if word in postf:
+                templist = []
+                for data in postf[word]:
+                    templist.append(data[0])
+                if not_flag:
+                    templist = ret_not_files(templist)
+                    not_flag = False
+
+                if and_flag:
+                    res = set(res) & set(templist)
+                    res = list(res)
+                    and_flag = False
+
+                if or_flag:
+                    res = res + list(set(templist) - set(res))
+                    or_flag = False
+
+        if word != 'not' and t_flag:
+            res = templist
+            t_flag = False
+    print(res)
+    return res
 
 
 def res_win(fname):
@@ -214,9 +293,9 @@ if __name__ == "__main__":
         Label(win, textvariable=res_text).pack()
         i = 0
         for data in res:
-            Button(win, text=data[0], command=lambda fname=data[0]: res_win(fname)).pack()
+            Button(win, text=data, command=lambda fname=data + ".txt": res_win(fname)).pack()
 
-            Label(win, text=generate_summary(data[0])).pack()
+            Label(win, text=generate_summary(data)).pack()
             i += 1
             if i >= 4:
                 break
