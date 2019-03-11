@@ -1,4 +1,3 @@
-import re
 try:
     from Tkinter import Entry, Frame, Label, StringVar
     from Tkconstants import *
@@ -9,13 +8,11 @@ except ImportError:
     from nltk.stem import PorterStemmer
 
 import TF_IDF
-import boolean
 
-algebra = boolean.BooleanAlgebra()
 
 ps = PorterStemmer()
-TF_IDF.scan_new_files()
 postf = TF_IDF.get_tw(TF_IDF.parseindex())
+hide_list = TF_IDF.get_hidden()
 
 
 def hex2rgb(str_rgb):
@@ -160,7 +157,6 @@ class SearchBox(Frame):
         res = parse_command(text)
         self._command(res)
 
-
     def _state_normal(self, event):
         self.button_label.configure(background=self._button_background)
 
@@ -180,7 +176,6 @@ def ret_not_files(files):
 
 def parse_command(buffer):
     templist = []
-    commands = ['and', 'not', 'or']
     not_flag = False
     and_flag = False
     or_flag  = False
@@ -233,7 +228,6 @@ def parse_command(buffer):
                 if not_flag:
                     templist = ret_not_files(templist)
                     not_flag = False
-
                 if and_flag:
                     res = set(res) & set(templist)
                     res = list(res)
@@ -246,7 +240,7 @@ def parse_command(buffer):
         if word != 'not' and t_flag:
             res = templist
             t_flag = False
-    print(res)
+
     return res
 
 
@@ -259,7 +253,7 @@ def res_win(fname):
     S.config(command=T.yview)
     T.config(yscrollcommand=S.set)
 
-    fptr = open("Files/"+fname+".txt", 'r')
+    fptr = open("Files/"+fname, 'r')
     buffer = ''
     for line in fptr:
         buffer += line
@@ -270,7 +264,7 @@ def res_win(fname):
 def generate_summary(fname):
     f = open("Files/"+fname+".txt", "r")
     buffer = ""
-    for i in range(0,3):
+    for i in range(0, 3):
         buffer += f.readline()
 
     return buffer
@@ -293,12 +287,13 @@ if __name__ == "__main__":
         Label(win, textvariable=res_text).pack()
         i = 0
         for data in res:
-            Button(win, text=data, command=lambda fname=data + ".txt": res_win(fname)).pack()
+            if data + ".txt" not in hide_list:
+                Button(win, text=data, command=lambda fname=data + ".txt": res_win(fname)).pack()
 
-            Label(win, text=generate_summary(data)).pack()
-            i += 1
-            if i >= 4:
-                break
+                Label(win, text=generate_summary(data)).pack()
+                i += 1
+                if i >= 4:
+                    break
         res_text.set("Found " + str(len(res)) + " Files\n Showing " + str(i) + "\n")
 
 

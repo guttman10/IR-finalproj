@@ -46,6 +46,16 @@ def normalize_tw(tw):
     return sorted_tw
 
 
+def get_hidden():
+    f = open("hidden.txt")
+    hidden_list = []
+    for line in f:
+        for fname in line.split():
+            hidden_list.append(fname)
+    print(hidden_list)
+    return hidden_list
+
+
 def get_tw(pf):
     n = len(listdir("Files"))
     tw = {}
@@ -98,8 +108,6 @@ def index_text_file():
                         else:
                             word_occurrences[word] = [fname]
                             word_occurrences[word].append(line_num)
-
-            print("Processed {} lines".format(line_num))
 
             if line_num < 1:
                 print("No lines found in text file, no index file created.")
